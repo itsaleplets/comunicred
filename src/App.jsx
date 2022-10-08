@@ -1,10 +1,14 @@
-import './style/App.css';
+import React from 'react';
+import Provider from './services/context/Provider'
+import Home from './pages/Home'
+import Authentication from './pages/Authentication';
 
 function App() {
   return (
-    <div className="App">
-        oi
-    </div>
+    <Provider>
+      <Authentication />
+      <Home />
+    </Provider>
   );
 }
 

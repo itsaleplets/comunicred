@@ -1,0 +1,12 @@
+.input-common {
+    width: 350px;
+    height: 45px;
+    padding-left: 10px;
+    margin-top: 5%;
+    border: #707070 solid 1px;
+    border-radius: 5px;
+}
+
+/* input::placeholder {
+    color: #707070;
+} */

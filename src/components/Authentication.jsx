@@ -1,18 +1,19 @@
-import '../style/SplashScreen.css';
+// import '../style/SplashScreen.css';
 import React, { useContext } from 'react';
-import SplashScreen from './SplashScreen';
+import SplashScreen from '../pages/SplashScreen';
 import Context from '../services/context/Context';
+import Login from '../pages/Login';
 
 function Authentication() {
 	const { splashScreen, showSplashScreen } = useContext(Context); 
 
 	setTimeout(() => {
 		showSplashScreen();
-	}, 4000)
+	}, 1000)
 
 	return (
 		<div>
-			{ splashScreen ? <SplashScreen /> : <div>oi</div> }
+			{ splashScreen ? <SplashScreen /> : <Login /> }
 		</div>
 	);
 }

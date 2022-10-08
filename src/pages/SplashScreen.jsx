@@ -4,7 +4,7 @@ import logo from "../images/Comunicred.svg";
 function SplashScreen() {
 
   return (
-    <img src={logo} alt="test" />
+    <img className='splash-logo' src={logo} alt="test" />
   );
 }
 

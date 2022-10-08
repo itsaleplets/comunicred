@@ -1,0 +1,21 @@
+.login-logo {
+    width: 150px;
+    margin: 10% 0 10% 0%;
+    /* border: solid 5px red; */
+}
+
+.login-container {
+    display: block;
+    /* border: solid 5px gray; */
+    text-align: center;
+}
+
+.login-container p {
+    font-size: 25px;
+    /* display: block; */
+    /* margin-bottom: 2%; */
+}
+
+.loginButton {
+    margin-top: 10%;
+}

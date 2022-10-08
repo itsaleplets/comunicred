@@ -1,0 +1,18 @@
+.buttonDiv button {
+    width: 365px;
+    height: 45px;
+    margin-top: 5%;
+    border: #707070 solid 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.greenButton { 
+    background-color: #136E37;
+    color: white;
+}
+
+.whiteButton { 
+    background-color: white;
+    color:  #136E37;
+}

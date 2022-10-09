@@ -1,4 +1,3 @@
-import React, { useContext } from 'react';
 import '../style/Home.css'
 import HomeHeader from '../components/HomeHeader';
 import { BigBox, SmallBox } from '../components/Box';
@@ -8,16 +7,13 @@ import poeple from '../images/people_alt.png'
 import business from '../images/add_business.png'
 import collection from '../images/collections_bookmark.png'
 
-
-
 function Home() {
-
 	return (
 		<div className='home'>
 			<HomeHeader />
 			<Rating />
 			<section className='homeBody'>
-				<BigBox />
+				<BigBox path="/loans"/>
 				<div className='sectionBody'>
 					<div>
 						<SmallBox src={note} text="Notas Fiscais"/>

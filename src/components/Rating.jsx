@@ -4,7 +4,7 @@ function Rating() {
 
 	return (
 		<div className='evaluation'>
-				<p>SUA AVALIAÇÃO ESTÁ: BOA</p>
+				<p>SUA AVALIAÇÃO ESTÁ: "BOA"</p>
 				<div className="progress">
 					<div className="progress-done" style={{ width: `${73}%` }}>
 						<span className="progressText">

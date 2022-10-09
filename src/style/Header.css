@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background-color: #136E37;
+    box-shadow: 0px 1px 3px #ccccce;
+    padding: 5%;
+    color: white;
+}
+
+.header img {
+    margin: 1.2% 7% 0 0;
+    width: 15px;
+    height: 15px;
+}

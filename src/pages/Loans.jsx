@@ -8,7 +8,7 @@ function Loans() {
 
 	return (
 		<div className='loans'>
-			<Header text="Meus Empréstimos" />
+			<Header text="MEUS EMPRÉSTIMOS" />
 			<BigBox />
 			<div className="loan">
 				<h3>Você tem 1 empréstimo ativo </h3>

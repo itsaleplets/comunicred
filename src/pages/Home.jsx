@@ -16,7 +16,7 @@ function Home() {
 				<BigBox path="/loans"/>
 				<div className='sectionBody'>
 					<div>
-						<SmallBox src={note} text="Notas Fiscais"/>
+						<SmallBox path="/invoices" src={note} text="Notas Fiscais"/>
 						<SmallBox src={business} text="Meu Negócio"/>
 					</div>
 					<div>

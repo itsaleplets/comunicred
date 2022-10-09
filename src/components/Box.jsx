@@ -20,8 +20,10 @@ function BigBox(props) {
 }
 
 function SmallBox(props) {
+	const history = useHistory();
+
 	return (
-		<div className="smallBox box">
+		<div className="smallBox box" onClick={() => history.push(props.path)}>
             <img src={props.src} width="24px" />
 			<p>{props.text}</p>
 		</div>

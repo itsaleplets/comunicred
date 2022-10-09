@@ -1,0 +1,19 @@
+.invoice {
+    border-top: 1.5px solid #DEDEDE;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120px;
+    margin-top: 5%;
+    padding: 2% 5%;
+    font-size: 14px;
+}
+
+.invoice :first-child {
+    font-weight: bold;
+}
+
+.dark {
+    color: #1F1920;
+}

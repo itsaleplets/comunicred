@@ -20,7 +20,7 @@ function Home() {
 						<SmallBox path="/my-business" src={business} text="Meu Negócio"/>
 					</div>
 					<div>
-						<SmallBox src={collection} text="Meus Cursos"/>
+						<SmallBox path="/courses" src={collection} text="Meus Cursos"/>
 						<SmallBox src={poeple} text="Comunidade"/>
 					</div>
 				</div>

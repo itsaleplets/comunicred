@@ -7,7 +7,6 @@ import Member from '../components/Member';
 
 function Community() {
   const { data } = useContext(Context);
-  console.log(data)
 
   return (
     <section className='community'>

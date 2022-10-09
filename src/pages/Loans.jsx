@@ -13,7 +13,7 @@ function Loans() {
 			<div className="loan">
 				<h3>Você tem 1 empréstimo ativo </h3>
 				<hr></hr>
-				<p>Empréstimo Nº 1  - DATA 01/05/22 </p>
+				<p>Empréstimo Nº 1 - 01/05/2022 </p>
 				<p>Valor: R$ 1.000,00</p>
 				<p className='grey'>Status: Faltam 04 parcelas de R$ 120,00</p>
 				<hr></hr>

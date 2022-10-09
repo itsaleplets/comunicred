@@ -17,7 +17,7 @@ function Home() {
 				<div className='sectionBody'>
 					<div>
 						<SmallBox path="/invoices" src={note} text="Notas Fiscais"/>
-						<SmallBox src={business} text="Meu Negócio"/>
+						<SmallBox path="/my-business" src={business} text="Meu Negócio"/>
 					</div>
 					<div>
 						<SmallBox src={collection} text="Meus Cursos"/>

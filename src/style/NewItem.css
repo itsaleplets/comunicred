@@ -1,0 +1,9 @@
+.newItemSmallInput {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newItemInput {
+    margin-bottom: 15%;
+}

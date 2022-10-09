@@ -36,3 +36,11 @@
     margin-top: 10%;
     justify-content:space-evenly;
 }
+
+.textBox {
+    margin: 5%;
+    justify-content:space-between;
+    height: 100px;
+    text-align: left;
+    font-size: 17px;
+}

@@ -1,8 +1,6 @@
 import '../style/Invoice.css'
 
-
 function Invoice() {
-
 	return (
 		<div className='invoice grey'>
 			<p>Mercadinho São Luiz</p>

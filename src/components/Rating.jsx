@@ -12,7 +12,7 @@ function Rating() {
 						</span>
 					</div>
 				</div>
-				<p>Frase motivacional para continuar pagando</p>
+				<p>Toda caminhada começa com um passo.</p>
 		</div>
 	);
 }

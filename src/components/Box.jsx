@@ -30,4 +30,13 @@ function SmallBox(props) {
 	);
 }
 
-export  { BigBox, SmallBox };
+function TextBox() {
+	return (
+		<div className="box textBox">
+            <h3>Saldo: R$ 200,00 </h3>
+            <p>Total de entradas: R$ 700,00</p>
+            <p>Total de saídas: R$ 500,00</p>
+		</div>
+	);
+}
+export  { BigBox, SmallBox, TextBox };

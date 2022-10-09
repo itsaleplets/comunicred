@@ -1,4 +1,4 @@
-import Input from "../components/Input";
+import {Input} from "../components/Input";
 import React, { useContext } from 'react';
 import Context from '../services/context/Context';
 import { GreenButton, WhiteButton } from "../components/Button";
@@ -15,7 +15,7 @@ function Login() {
             <Input text="Digite o seu CPF" type="text" />
             <Input text="**************" type="password" />
             <div className="loginButton">
-                <GreenButton text="ENTRAR" userAuthentication={userAuthentication} />
+                <GreenButton text="ENTRAR" function={userAuthentication} />
                 <WhiteButton text="ESQUECI MINHA SENHA"/>
             </div>
         </div>

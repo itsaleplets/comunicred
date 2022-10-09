@@ -7,8 +7,8 @@ function Invoices() {
 	return (
 		<div className='invoices'>
 			<Header text="NOTAS FISCAIS" />
-			<div className='months'>
-				<h3>Histórico de notas</h3>
+			<div className='history'>
+				<p>Histórico de notas</p>
 				<div>
 					<button>Julho</button>
 					<button style={{backgroundColor:'#63C832'}}>Agosto</button>

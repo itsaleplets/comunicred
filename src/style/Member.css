@@ -1,0 +1,27 @@
+.member {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.memberName {
+    margin-left: 5%;
+}
+
+.coin {
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.member-hr {
+    margin: 15px 0px;
+    border: none;
+    height: 1px;
+    background-color: #d61c1c;
+}
+

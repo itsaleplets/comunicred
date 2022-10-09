@@ -6,7 +6,6 @@ import { useHistory } from "react-router-dom"
 import '../style/MyBusiness.css'
 
 function MyBusiness() {
-	const history = useHistory();
 	return (
         <div>
             <div className='myBusiness'>

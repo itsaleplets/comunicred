@@ -27,3 +27,7 @@
     height: 130px;
     background-color: white;
 }
+
+.italic{
+    font-style: italic;
+}

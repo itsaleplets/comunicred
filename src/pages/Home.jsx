@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<div className='home'>
 			<HomeHeader />
-			<Rating />
+			<Rating text="A SUA AVALIAÇÃO ESTÁ" rate="73" />
 			<section className='homeBody'>
 				<BigBox path="/loans"/>
 				<div className='sectionBody'>
@@ -21,10 +21,9 @@ function Home() {
 					</div>
 					<div>
 						<SmallBox path="/courses" src={collection} text="Meus Cursos"/>
-						<SmallBox src={poeple} text="Comunidade"/>
+						<SmallBox path="/community" src={poeple} text="Comunidade"/>
 					</div>
 				</div>
-
 			</section>
 		</div>
 	);

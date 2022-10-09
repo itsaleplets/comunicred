@@ -7,7 +7,6 @@ function Provider({ children }) {
 	const [authentication, setAuthentication] = useState(false);
 	const [data, setData] = useState(api)
 
-
 	const showSplashScreen = () => {
 		setSplashScreen(false)
 	}
@@ -26,7 +25,8 @@ function Provider({ children }) {
 		authentication,
 		userAuthentication,
 		api,
-		addData
+		addData,
+		data
 	};
 
 	return (

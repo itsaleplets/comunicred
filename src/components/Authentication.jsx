@@ -8,7 +8,7 @@ function Authentication() {
 
 	setTimeout(() => {
 		showSplashScreen();
-	}, 1000)
+	}, 4000)
 
 	return (
 		<div>

@@ -2,11 +2,12 @@ import React, { useContext } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home'
 import Loans from './pages/Loans';
+import Context from './services/context/Context';
 import Courses from './pages/Courses';
 import NewItem from './pages/NewItem';
 import Invoices from './pages/Invoices';
+import Community from './pages/Community';
 import MyBusiness from './pages/MyBusiness';
-import Context from './services/context/Context';
 import Authentication from './components/Authentication';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/my-business" component={ MyBusiness } />
         <Route path="/new-item" component={ NewItem } />
         <Route path="/courses" component={ Courses } />
+        <Route path="/community" component={ Community } />
       </Switch>
     </BrowserRouter>
   );

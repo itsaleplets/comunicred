@@ -1,7 +1,6 @@
 import "../style/Box.css"
 import { useHistory } from "react-router-dom"
 import arrow from "../images/arrow.png"
-import blackArrow from "../images/black-arrow.png"
 
 function BigBox(props) {
 	const history = useHistory();
@@ -50,7 +49,6 @@ function ImageBox(props) {
 				<p className="bold">{props.title}</p>
 				<p className="grey">{props.info}</p>
 			</div>
-			{/* <img src={blackArrow} /> */}
 		</div>
 	);
 }

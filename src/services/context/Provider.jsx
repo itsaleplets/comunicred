@@ -15,8 +15,8 @@ function Provider({ children }) {
 		setAuthentication(true)
 	}
 
-	const addData = (newData) => {
-		setData(newData)
+	const addData = (updatedData) => {
+		setData(updatedData)
 	}
 
 	const contextValue = {

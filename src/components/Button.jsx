@@ -13,7 +13,7 @@ function GreenButton(props) {
 	}
 	return (
 		<div className="buttonDiv">
-			<button  type="submit" className="greenButton" onClick={() => handleClick(props)}>
+			<button type="submit" className="greenButton" onClick={() => handleClick(props)}>
 				{props.text}
 			</button>
 		</div>
@@ -30,4 +30,4 @@ function WhiteButton(props) {
 	);
 }
 
-export  { GreenButton, WhiteButton };
+export { GreenButton, WhiteButton };

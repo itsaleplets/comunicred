@@ -6,8 +6,8 @@ function Header(props) {
 	const history = useHistory();
 	return (
 		<div className='header'>
-            <img src={arrow} onClick={() => history.push('/home')}/>
-            <p>{props.text}</p>
+			<img src={arrow} onClick={() => history.push('/home')} />
+			<p>{props.text}</p>
 		</div>
 	);
 }

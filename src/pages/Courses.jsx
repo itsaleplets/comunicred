@@ -12,11 +12,11 @@ function Courses() {
         <section className='courses'>
             <Header text="MEUS CURSOS" />
             <h3>Cursos em Andamento</h3>
-            <ImageBox src={product} title="Pacificação de produtos" info="Duração: 2h  | Status: disponível"/>
+            <ImageBox src={product} title="Pacificação de produtos" info="Duração: 2h  | Status: disponível" />
             <h3>Cursos Disponíveis</h3>
-            <ImageBox src={sales} title="Vendas Online" info="Duração: 3h  | Status: disponível"/>
+            <ImageBox src={sales} title="Vendas Online" info="Duração: 3h  | Status: disponível" />
             <h3>Cursos Realizados</h3>
-            <ImageBox src={mkt} title="Marketing Digital" info="Duração: 5h  | Status: finalizado"/>
+            <ImageBox src={mkt} title="Marketing Digital" info="Duração: 5h  | Status: finalizado" />
         </section>
 
     );

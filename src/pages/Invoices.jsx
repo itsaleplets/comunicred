@@ -11,7 +11,7 @@ function Invoices() {
 				<p>Histórico de notas</p>
 				<div>
 					<button>Julho</button>
-					<button style={{backgroundColor:'#63C832'}}>Agosto</button>
+					<button style={{ backgroundColor: '#63C832' }}>Agosto</button>
 					<button>Setembro</button>
 					<button>Outubro</button>
 				</div>
@@ -20,7 +20,7 @@ function Invoices() {
 			<Invoice />
 			<Invoice />
 			<div className='invoiceButton'>
-				<GreenButton text="+ INCLUIR NOVA NOTA"/>
+				<GreenButton text="+ INCLUIR NOVA NOTA" />
 			</div>
 		</div>
 

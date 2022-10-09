@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import Context from '../services/context/Context';
 import Rating from '../components/Rating';
 import Header from '../components/Header';

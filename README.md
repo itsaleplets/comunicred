@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+<div align="center">
+    <h1> 🏦 BNDS - ComuniCred 👩🏽‍🔧🧑🏽‍🌾👩🏽‍🏫 </h1>
+    <img alt="Comunicred logo" src="" width="200px" />   
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### O Projeto
+Nós da Comunicred, gamificamos a forma de acesso ao crédito através de um app super simples e prático. Atualizando o fluxo de notas e de caixa de maneira rápida e simples o empreendedor pode acumular moedas no app da Comunicred. Além disso, caso o pequeno empresário realize cursos de capacitação para auxiliá-lo em seu próprio negócio, ela pode acumular ainda mais moedas!
 
-In the project directory, you can run:
+Agora... O que o empreendedor pode fazer com essas moedas???
+Acumulando as moedas, ele pode subir no ranking dos empreendedores da região e conseguir cada vez mais acesso ao crédito, flexibilização em prazos de pagamento e taxa de juros ou até mesmo liberação de crédito continua para fomentar o seu próprio negócio. Sendo assim, através da gameficação, nós da Comunicred premiamos os empreendedores e fortalecemos os laços entre os pequenos negócios e o microcrédito, como ferramenta para fomentar o desenvolvimento da região.
+### As Ferramentas
 
-### `npm start`
+A parte front-end do projeto foi construída em React com ContextAPI para genrenciamento de estado, e componentes funcionais com HOOKs para também controlar estados, assim como ciclos de vida do componente. No projeto também foi usado react router para generenciar rotas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalação do Projeto:
 
-### `npm test`
+```
+npm install
+```
+### Iniciar o Servidor:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### P.S.:
+Esse projeto foi desenvolvido com design mobile first e não é responsivo, ara uma melhor visualização utilize uma tela de aproximadamente 412 x 914.

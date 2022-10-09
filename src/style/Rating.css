@@ -1,0 +1,29 @@
+.progress {
+    background-color: #F1F0F1;
+    border-radius: 4px;
+    width: 350px;
+    height: 15px;
+    position: relative;
+    margin: 10px 0 15px 8%;
+}
+
+.progress-done {
+    background: linear-gradient(110.14deg, #136E37 1.89%, #63C832 90%);
+    border-radius: 5px;
+    height: 100%;
+    transition: 1s ease;
+}
+
+.progressText {
+    position: absolute;
+    font-size: 12px;
+    z-index: 1;
+    left: 93%;
+    color: #1F1920;
+}
+
+.evaluation {
+    padding-top: 45px;
+    height: 130px;
+    background-color: white;
+}

@@ -1,0 +1,41 @@
+.home {
+    background-color: #F1F0F1 ;
+}
+
+.homeHeader {
+    border-bottom: 1.5px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: white;
+}
+
+.homeHeader div {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.homeHeader img {
+    margin-left: 10%;
+}
+
+.homeBody {
+    background: #F1F0F1;
+    height: 100vh;
+}
+
+.sectionBody {
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+
+}
+
+.sectionBody div {
+    height: 75%;
+    width:70%;
+    margin-left: 5%;
+}

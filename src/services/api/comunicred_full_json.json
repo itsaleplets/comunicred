@@ -1,0 +1,144 @@
+{
+  "data":{
+     "id":1,
+     "fullname":"João Silva",
+     "moedas":830,
+     "notas":[
+        {
+           "numero_nota":"15000",
+           "nome_estabelecimento":"Dinilda",
+           "valor":238.4,
+           "data_geracao":"2022-10-08T16:52:30Z"
+        },
+        {
+           "numero_nota":"8686",
+           "nome_estabelecimento":"Erasmo",
+           "valor":186.39,
+           "data_geracao":"2022-09-08T17:13:18Z"
+        },
+        {
+           "numero_nota":"54657",
+           "nome_estabelecimento":"frança",
+           "valor":8647,
+           "data_geracao":"2022-10-08T17:14:27Z"
+        }
+     ],
+     "comunidade":{
+        "nome":"Lago do Junco",
+        "integrantes":[
+           {
+              "id":1,
+              "nome":"João Silva",
+              "moedas":830
+           }
+        ]
+     },
+     "emprestimos":[
+        {
+           "id":1,
+           "valor":1000,
+           "parcelas":10,
+           "quantas_pagas":2,
+           "credito_utilizado":800,
+           "credito_disponivel":200,
+           "data_criação":"2022-10-08",
+           "valor_parcela":100,
+           "proximas_parcelas":[
+              {
+                 "mes":"Domingo 08. De Janeiro 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Quarta 08. De Fevereiro 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Quarta 08. De Março 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Sábado 08. De Abril 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Segunda 08. De Maio 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Quinta 08. De Junho 2023",
+                 "valor":100
+              },
+              {
+                 "mes":"Sábado 08. De Julho 2023",
+                 "valor":100
+              }
+           ],
+           "finalizado":false
+        },
+        {
+           "id":2,
+           "valor":1250,
+           "parcelas":7,
+           "quantas_pagas":3,
+           "credito_utilizado":714.28,
+           "credito_disponivel":535.71,
+           "data_criação":"2022-10-07",
+           "valor_parcela":178.57,
+           "proximas_parcelas":[
+              {
+                 "mes":"Terça 07. De Fevereiro 2023",
+                 "valor":178.57
+              },
+              {
+                 "mes":"Terça 07. De Março 2023",
+                 "valor":178.57
+              },
+              {
+                 "mes":"Sexta 07. De Abril 2023",
+                 "valor":178.57
+              }
+           ],
+           "finalizado":false
+        }
+     ],
+     "meus_cursos":[
+        {
+           "id":1,
+           "nome":"Educação Financeira",
+           "capa":"/2022-10-07-15-26-51.png",
+           "status":"FINALIZADO"
+        }
+     ],
+     "meu_negocio":[
+        {
+           "id":1,
+           "nome":"Quitanda do João",
+           "saldo":70,
+           "total_saida":180,
+           "total_entrada":250,
+           "transacoes":[
+              {
+                 "saida":[
+                    {
+                       "id":2,
+                       "valor":180,
+                       "descricao":"venda de arroz",
+                       "data_criada":"2022-10-08T13:45:03Z"
+                    }
+                 ]
+              },
+              {
+                 "entrada":[
+                    {
+                       "id":1,
+                       "valor":250,
+                       "descricao":null,
+                       "data_criada":"2022-10-08T13:12:19Z"
+                    }
+                 ]
+              }
+           ]
+        }
+     ]
+  }
+}

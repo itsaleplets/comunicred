@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 1px 3px #ccccce;
+    border-radius: 15px;
+    padding: 5% 7%;
+    color: #333232;
+}
+
+.bigBox {
+    margin: 5%;
+    justify-content:space-between;
+    height: 160px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.bigBox hr {
+    margin: 15px 0px;
+    border: none;
+    height: 1px;
+    background-color: #DEDEDE;
+}
+
+.bigBox span {
+    color: #63C832;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5%;
+}
+
+.smallBox {
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10%;
+    justify-content:space-evenly;
+}

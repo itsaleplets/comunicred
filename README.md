@@ -1,6 +1,5 @@
 <div align="center">
-    <h1> 🏦 BNDS - ComuniCred 👩🏽‍🔧🧑🏽‍🌾👩🏽‍🏫 </h1>
-    <img alt="Comunicred logo" src="https://raw.githubusercontent.com/itsaleplets/comunicred/main/src/images/Group.png?token=GHSAT0AAAAAABYY75KPJYMGFIODMMRQ3DSKY2DGRMQ" width="200px" />   
+    <h1> 🏦 BNDS - <img alt="Comunicred logo" src="https://raw.githubusercontent.com/itsaleplets/comunicred/main/src/images/Group.png?token=GHSAT0AAAAAABYY75KPJYMGFIODMMRQ3DSKY2DGRMQ" width="200px" /> 👩🏽‍🔧🧑🏽‍🌾👩🏽‍🏫 </h1>
 </div>
 
 
